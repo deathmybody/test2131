@@ -1,0 +1,717 @@
+html { overflow-y: scroll;
+  min-height: 100%;
+ }
+
+ body {
+     display: table;
+     width: auto;
+     height: 100vh;
+     margin: 0;
+     background: #333;
+     font-size: 36px;
+     font-family: "Couture";
+     font-weight: bold;
+     text-align: right;
+     letter-spacing: 5px;
+     text-transform: uppercase;
+     
+     color: #fff;
+ }
+ 
+text {
+    font-size: 36px;
+    font-family: "Arial";
+    font-weight: bold;
+    text-align: right;
+    position: absolute;
+    left: 0.124in;
+    top: 4.871in;
+    width: 2.194in;
+    height: 0.361in;
+    z-index: 15;
+ }
+#background 
+{ 
+     left: 0px; 
+     top: 0px; 
+     position: relative; 
+     margin-left: auto; 
+     margin-right: auto; 
+     width: 1920px;
+     height: 1080px; 
+     overflow: hidden;
+     z-index:0;
+    } 
+
+ #Layer10 
+{ 
+     left: 110px; 
+     top: 0px; 
+     position: absolute; 
+     width: 1810px;
+     height: 1080px;
+     z-index:1;
+} 
+
+ #SocialsIcons 
+{ 
+     left: 182px; 
+     top: 920px; 
+     position: absolute; 
+     width: 265px;
+     height: 55px;
+     z-index:2;
+} 
+
+ #U3Allrightsreserved2 
+{ 
+     left: 193px; 
+     top: 983px; 
+     position: absolute; 
+     width: 254px;
+     height: 43px;
+     z-index:3;
+} 
+ #layer_3 
+{ 
+     left: 257px; 
+     top: 273px; 
+     position: absolute; 
+     width: 55px;
+     height: 81px;
+     z-index:9;
+} 
+
+ #U 
+{ 
+     left: 193px; 
+     top: 275px; 
+     position: absolute; 
+     width: 68px;
+     height: 81px;
+     z-index:10;
+} 
+
+#U:after
+{ 
+     left: 150px; 
+     top: 275px; 
+     position: absolute; 
+     width: 68px;
+     height: 81px;
+     z-index:10;
+} 
+
+ #Baramini 
+{ 
+    background-color: #e3a893;
+     left: -1px; 
+     top: -25px; 
+     position: absolute; 
+     width: 113px;
+     height: 1152px;
+     z-index:11;
+} 
+
+ #Layer4 
+{ 
+     left: 31px; 
+     top: 572px; 
+     position: absolute; 
+     width: 50px;
+     height: 74px;
+     z-index:12;
+} 
+
+ #layer_13 
+{ 
+     font-size: 36px;
+     font-family: "Couture";
+     font-weight: bold;
+     text-align: right;
+     position: absolute;
+     left: 47px;
+     top: 600px;
+     width: 18px;
+     height: 27px;
+     z-index: 28;
+} 
+
+ #Ellipse1 
+{ 
+     left: 31px; 
+     top: 456px; 
+     position: absolute; 
+     width: 48px;
+     height: 48px;
+     z-index:14;
+} 
+
+ #Ellipse3 
+{ 
+     left: 43px; 
+     top: 473px; 
+     position: absolute; 
+     width: 24px;
+     height: 43px;
+     z-index:16;
+} 
+
+ #Ellipse2 
+{ 
+     left: 46px; 
+     top: 458px; 
+     position: absolute; 
+     width: 18px;
+     height: 18px;
+     z-index:17;
+} 
+
+ #Rectangle3 
+{ 
+     left: 24px; 
+     top: 98px; 
+     position: absolute; 
+     width: 63px;
+     height: 9px;
+     z-index:18;
+} 
+
+ #Rectangle3copy 
+{ 
+     left: 24px; 
+     top: 111px; 
+     position: absolute; 
+     width: 63px;
+     height: 9px;
+     z-index:19;
+} 
+
+ #Rectangle3copy2 
+{ 
+     left: 24px; 
+     top: 124px; 
+     position: absolute; 
+     width: 63px;
+     height: 9px;
+     z-index:20;
+} 
+
+ #fundal
+ {
+     position: sticky;
+     z-index: -1px;
+ }
+ #Toto {
+ position: absolute;
+ left: 527px;
+ top: 32px;
+ width: 632px;
+ height: 607px;
+ z-index: 106;
+ background-color: #e8e5dc;
+ 
+ }
+
+ #Toto2 {
+    position: absolute;
+    left: 1229px;
+    top: 31px;
+    width: 632px;
+    height: 608px;
+    z-index: 132;
+    background-color: #e8e5dc;
+  }
+#Totopicture {
+    position: absolute;
+    left: 648px;
+    top: 62px;
+    width: 391px;
+    height: 533px;
+    z-index: 109;
+
+}
+#sumprematism {
+    position: absolute;
+    left: 1355px;
+    top: 61px;
+    width: 381px;
+    height: 534px;
+    z-index: 135;  
+}
+#Toto6 {
+    position: absolute;
+    left: 1229px;
+    top: 817px;
+    width: 632px;
+    height: 608px;
+    z-index: 166;
+    background-color: #e8e5dc;
+}
+ 
+  #Toto4 {
+    background-color: #e8e5dc;
+      position: absolute;
+      left: 527px;
+      top: 818px;
+      width: 632px;
+      height: 607px;
+      z-index: 160;   
+}
+ #Totopicture2 {
+  position: absolute;
+  left: 648px;
+  top: 848px;
+  width: 391px;
+  height: 533px;
+  z-index: 163;
+ 
+ }
+ #sumprematism2 {
+    position: absolute;
+    left: 1355px;
+    top: 847px;
+    width: 381px;
+    height: 534px;
+    z-index: 169;
+  }
+  
+
+
+@font-face {
+     font-family: "Couture";
+     src: url("assets/font/couture-bld.woff") format("woff");
+     }
+     
+     @font-face {
+       font-family: "Helvetica";
+       src: url("assets/font/Helvetica.woff") format("woff");
+     }
+     body {
+       display: table;
+       width: auto;
+       height: 100vh;
+       margin: 0;
+       background: #333;
+       font-size: 0.5in;
+       font-family: "Couture";
+       font-weight: bold;
+       text-align: right;
+       letter-spacing: 5px;
+       text-transform: uppercase;
+       color: #fff;
+     }
+     .fundal {
+       position: absolute;
+       z-index: -1px;
+     }
+     #container {
+       font-family: Couture;
+       text-align: right;
+       color: black;
+       position: absolute;
+       left: 1.8in;
+       top: 4.597in;
+       width: 1.986in;
+       height: 0.4in;
+       z-index: 17;
+     }
+     
+     ul {
+       list-style: none;
+       margin: 0;
+       padding: 0;
+       left: 80px;
+     }
+     
+     li {
+       display: inline-block;
+       padding: 0 20px;
+     }
+     span {
+       position: relative;
+       left: 20px;
+       display: block;
+       cursor: pointer;
+       height: 29px;
+       font-size: 36px;
+       font-family: "Couture";
+       text-align: right;
+     }
+     
+     span:before, span:after {
+       content: '';
+       position: absolute;
+       width: 0%;
+       height: 5px;
+       top: 50%;
+       margin-top: -0.5px;
+       background: #fff;
+     }
+     
+     span:before {
+       left: -2.5px;
+     }
+     span:after {
+       right: 2.5px;
+       background:black;
+       transition: width 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+     }
+     a { color: inherit;
+       text-decoration: none; } 
+     
+     span:hover:before {
+       background: black;
+       width: 100%;
+       transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+     }
+     
+     span:hover:after {
+       background: transparent;
+       width: 100%;
+       transition: 0s;
+     }
+     * {
+       margin: 0;
+       box-sizing: border-box;
+     }
+     .menuappears {
+       font-size: 29pt;
+       color: #343434;
+       left: -2.5px;
+       text-align: left;
+     }
+     .menuappears:hover:after {
+       font-size: 300pt;
+     
+     }
+     .ham {
+       left: 24px; 
+       top: 124px; 
+       position: absolute; 
+       z-index:20;
+       width: 3rem;
+       height: 3rem;
+       width: 60px;
+       height: 6px;
+       background-color: black;
+       border:black;
+       box-shadow: 0 13px 0 0 black, 0 26px 0 0 black;
+       cursor: pointer;
+     }
+     #blank
+     {
+       background-color: white;
+       position: absolute;
+       left: -493px;
+       top: 0in;
+       width: 25.139in;
+       height: 15in;
+       z-index: 2;
+     } 
+     #Layer8copy2 
+     { 
+           left: 124px; 
+           top: 15px; 
+           position: sticky; 
+           width: 403px;
+           height: 1065px;
+           z-index:9;
+           background-color: white;
+     } 
+     #NEWBRUTALISTPRINTS 
+     { 
+           left: 769px; 
+           top: 514px; 
+           position: absolute; 
+           width: 876px;
+           height: 65px;
+           z-index:10;
+     } 
+     #layer_8 
+     { 
+           left: 1821px; 
+           top: 990px; 
+           position: absolute; 
+           width: 36px;
+           height: 35px;
+           z-index:11;
+     }
+     .xIcon {
+       display: none;
+     }
+     
+     .menu {
+       position: fixed;
+       top: 0;
+       left: 0;
+       right: 1;
+       bottom: 0;
+       width: 100%;
+       height: 100vh;
+       color: black;
+       transform: translateY(-100%);
+       transition: transform 0.2s;
+       list-style: none;
+       padding-top: 4rem;
+     }
+     
+     .showMenu {
+       transform: translateY(0);
+     }
+     
+     .menuLink {
+       display: inline;
+       font-size: 2rem;
+       color: black;
+       text-decoration: none;
+     }
+     
+     .menuLink:hover {
+       text-decoration: underline;
+     }
+     .menuLink:hover {
+       text-decoration: underline;
+     }
+.text
+     { 
+          font-size: 28.18px;
+          font-family: "Helvetica";
+          font-weight: 400;
+          color: rgb( 0, 0, 0 );
+          text-align: right;
+          position: absolute;
+          left: 15px;
+          top: 505px;
+          height: 20px;
+          z-index: 32;
+          line-height: normal;
+          letter-spacing: -2px;
+     } 
+     
+     #layer_13 
+     { 
+          font-size: 36px;
+          font-family: "Couture";
+          font-weight: bold;
+          text-align: right;
+          position: absolute;
+          left: 47px;
+          top: 590px;
+          width: 18px;
+          height: 27px;
+          z-index: 28;
+     } 
+     
+     #Ellipse2
+     {
+       border-radius: 50%;
+       position: absolute;
+       left: 47px;
+       top: 428px;
+       width: 16px;
+       height: 16px;
+       z-index: 34;
+     }
+     
+     #Ellipse3{
+       border-radius: 50%;
+       position: absolute;
+       left: 44px;
+       top: 465px;
+       width: 22px;
+       height: 41px;
+       z-index: 39;
+     }
+     .Shape_3 {
+       background-color: rgb( 27, 25, 25 );
+       position: absolute;
+       left: 1627px;
+       top: 24px;
+       width: 214px;
+       height: 1px;
+       z-index: 1205;
+     }
+     #Shape_4 {
+       position: absolute;
+       left: 1852px;
+       colro: black;
+       top: -23px;
+       width: 0;
+       height: 0;
+       z-index: 1204;
+     }
+     
+     .Ellipse_4 {
+       border-width: 1px;
+       border-color: rgb( 0, 0, 0 );
+       border-style: solid;
+       border-radius: 50%;
+       position: absolute;
+       left: 1846px;
+       top: 6px;
+       width: 11px;
+       height: 12px;
+       z-index: 1203;
+     }
+     .fa {
+          font-size: 8px;
+          left: 182px; 
+          top: 920px; 
+          width: 10px;
+          height: 55px;
+          text-align: left;
+          margin: 2px 2px;
+        }
+        
+        .fa:hover {
+          opacity: 0.7;
+        }
+        
+        .fa-facebook {
+          background: transparent;
+          color: black;
+          left: 192px; 
+          top: 930px; 
+          width: 9px;
+          height: 24px;
+          position: absolute;
+        }
+        
+        .fa-twitter {
+          background: transparent;
+          color: black;
+          left: 220px;
+          size: 10px;
+          top: 930px; 
+          width: 265px;
+          height: 55px;
+          position: absolute;
+        }
+        
+        .fa-google {
+          background: transparent;
+          color: black;
+          left: 260px;
+          top: 930px; 
+          width: 265px;
+          height: 55px;
+          position: absolute;
+        }
+        
+        
+        .fa-youtube {
+          background: transparent;
+          color: black;
+          color: black;
+          left: 400px;
+          top: 930px; 
+          width: 265px;
+          height: 55px;
+          position: absolute;
+        }
+        
+        .fa-instagram {
+          background: transparent;
+          color: black;
+          color: black;
+          left: 305px;
+          top: 930px; 
+          width: 265px;
+          height: 55px;
+          position: absolute;
+        }
+        
+        .fa-pinterest {
+          background: transparent;
+          color: black;
+          color: black;
+          left: 350px;
+          top: 930px; 
+          width: 265px;
+          height: 55px;
+          position: absolute;
+        }
+        
+        .text2{
+          font-size: 18px;
+          color: black;
+          font-family: "OpenSans";
+          font-weight: regular;
+          text-align: left;
+          position: absolute;
+          left: 187px;
+          top: 1000px;
+          width: 800px;
+          height: 98px;
+          letter-spacing: 0px;
+          line-height: 4px;
+          z-index: 13;
+        }
+
+.mini-menu {
+  font-size: 21px;
+}
+
+.mini-menu a:hover {
+  color: #c08c7b;
+}
+
+#mini-background {
+  left: 527px; 
+  top: 32px; 
+  position: absolute; 
+  width: 876px;
+  height: 65px;
+  z-index:9;
+}
+
+.texttoto1 {
+    font-size: 24px;
+    font-family: "Helvetica";
+    text-align: right;
+    position: absolute;
+    left: 537px;
+    top: 651px;
+    width: 54px;
+    height: 19px;
+}
+
+#textart {
+  font-size: 24px;
+  color: black;
+  font-family: "Helvetica";
+  text-align: right;
+  position: absolute;
+  left: 537px;
+  top: 651px;
+  width: 54px;
+  height: 19px;
+}
+
+.icon {
+    position: absolute;
+    color: black;
+    left: 1074px;
+    top: 650px;
+    width: 22px;
+    height: 19px;
+}
+
+.menu2 {
+    font-size: 29px;
+    font-family: "Couture";
+    color: rgb( 52, 52, 52 );
+    font-weight: bold;
+    text-align: right;
+    position: absolute;
+    left: 192px;
+    top: 481px;
+    width: 226px;
+    height: 21px;
+    z-index: 186;
+}
+
+#scroll {
+  overflow: scroll;
+}

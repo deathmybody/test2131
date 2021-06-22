@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>U3</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div id="background">
+            <div class="text">
+                <p>GAVRIIL</p>
+            </div>
+            <div id="Layer8copy2" style="display:none; "></div>
+            <div id="NEWBRUTALISTPRINTS" style="display: none;">
+                <img src="images/NEWBRUTALISTPRINTS.png">
+            </div>
+            <div id="layer_8" style="display: none;">
+                <img src="images/layer_8.png">
+            </div>
+            <div id="fundal">
+                <img src="images/fundal.png">
+            </div>
+            <div id="U3Allrightsreserved2">
+                <img src="images/U3Allrightsreserved2.png">
+            </div>
+            <div id="layer_3">
+                <img src="images/layer_3.png">
+            </div>
+            <div id="U">
+                <img src="images/U.png">
+            </div>
+            <div id="Baramini"></div>
+            <div id="Layer4">
+                <img src="images/Layer4.png">
+            </div>
+            <div id="layer_13">
+                <img src="images/layer_13.png">
+            </div>
+            <div id="Ellipse1">
+                <img src="images/Ellipse1.png">
+            </div>
+            <section class="scroll">
+                <div id="Toto" style="display:none;"></div>
+                <div id="Toto2" style="display:none;"></div>
+                <div id="Totopicture" style="display:none;">
+                    <img src="images/totopicture.png">
+                </div>
+                <div id="sumprematism" style="display:none;">
+                    <img src="images/sumprematism.png">
+                </div>
+                <div id="Toto6" style="display:none;"></div>
+                <div id="Toto4" style="display:none;"></div>
+                <div id="Totopicture2" style="display:none;">
+                    <img src="images/totopicture.png">
+                </div>
+                <div id="sumprematism2" style="display:none;">
+                    <img src="images/sumprematism.png">
+                </div>
+            </section>
+            <div class="Shape_3"></div>
+            <div class="Ellipse_4"></div>
+            <div id="Shape_4">
+                <img src="images/Shape_4.png">
+            </div>
+            <div id="blank" style="display:none;">            </div>
+            <div id="mini-background" style="display: none;">
+                <img src="images/mini-background.png">
+            </div>
+            <div id="textart">
+                <p id="textart" style="display: none;">TOTO</p>
+            </div>
+            <button class="ham">
+                <span class="menuIcon material-icons"></span>
+                <span class="xIcon material-icons"></span>
+            </button>
+            <ul class="menu"></ul>
+        </div>
+        <div id="container">
+            <ul>
+                <li>
+                    <span>ORIGINALS</span>
+                </li>
+                <li>
+                    <span id="prints"><a href="javascript:toggleMenu2()">Prints</a></span>
+                </li>
+                <div id="menu2" class="menuappears" style="display: none;">
+                    <ul class="mini-menu">
+                        <li>XXCENTURY</li>
+                        <li>
+                            <a href="javascript:togglecontmenu()">CONTEMPORARY</a>
+                        </li>
+                        <li>GRAPHICART</li>
+                        <li>PHOTOGRAPHY</li>
+                        <li>COMICSART</li>
+                        <li>CYBERPUNK</li>
+                    </ul>
+                </div>
+                <li>
+                    <span><a href="javascript:toggleMenu3()">artists</a></span>
+                </li>
+                <div id="menu3" class="menuappears" style="display: none;">
+                    <ul>
+                        <li>Gavriil</li>
+                        <li>MIHU</li>
+                        <li>VALEN</li>
+                        <li>EMANUEL</li>
+                    </ul>
+                </div>
+                <li>
+                    <span>limited</span>
+                </li>
+                <li>
+                    <span>PRINTables</span>
+                </li>
+                <div id="menu5" class="menuappears" style="display: none;">
+                    <ul>
+                        <li>CASES</li>
+                        <li>UCARDS</li>
+                        <li>COVERS</li>
+                        <li>BUTTONS</li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+        <div class="media" style="font-size: 2rem;">
+            <a href="#" class="fa fa-facebook fa-xs"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-pinterest"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </div>
+        <div class="icon" style="font-size: 2rem;">
+            <a style="display:none;" class="fa fa-heart"></a>
+        </div>
+    </body>
+</html>
+<style>
+</style>
+<script>
+var menu = document.querySelector(".menu")
+var ham = document.querySelector(".ham")
+var xIcon = document.querySelector(".xIcon")
+var menuIcon = document.querySelector(".menuIcon")
+var menu2 = document.querySelector(".menuappears")
+
+ham.addEventListener("click", toggleMenu)
+
+function toggleMenu1() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    xIcon.style.display = "none";
+    menuIcon.style.display = "block";
+  } else {
+    menu.classList.add("showMenu");
+    xIcon.style.display = "block";
+    menuIcon.style.display = "none";
+  }
+}
+function toggleMenu2() {
+  if (menu.classList.contains("showMenu")) {
+    document.getElementById('U').style.top = "275px";
+    document.getElementById('layer_3').style.top = "275px";
+    menu.classList.remove("showMenu");
+    xIcon.style.display = "none";
+    menuIcon.style.display = "block";
+    menu2.style.display = "none";
+    menu3.style.display = "none";
+    menu5.style.display = "none";
+    document.getElementById('container').style.top = "4.597in";
+    document.getElementById('NEWBRUTALISTPRINTS').style.display='none';
+    document.getElementById('layer_8').style.display='none';
+    document.getElementById('Layer8copy2').style.display='none';
+    document.getElementById('blank').style.display='none';
+    document.getElementById('Toto').style.display='none';
+    document.getElementById('Toto2').style.display='none';
+    document.getElementById('sumprematism').style.display='none';
+    document.getElementById('Totopicture').style.display='none';
+    document.getElementById('Toto6').style.display='none';
+    document.getElementById('Toto4').style.display='none';
+    document.getElementById('sumprematism2').style.display='none';
+    document.getElementById('Totopicture2').style.display='none';
+    document.getElementById('mini-background').style.display='none';
+    document.getElementById('prints').style.left = '20px';
+  } else {
+    menu.classList.add("showMenu");
+    xIcon.style.display = "block";
+    menuIcon.style.display = "none";
+    document.getElementById('Layer8copy2').style.display='block';
+    document.getElementById('NEWBRUTALISTPRINTS').style.display='block';
+    document.getElementById('layer_8').style.display='block';
+    document.getElementById('blank').style.display='block';
+    document.getElementById('mini-background').style.display='block';
+    menu2.style.display = "block";
+    document.getElementById('U').style.top = "103px";
+    document.getElementById('layer_3').style.top = "103px";
+    document.getElementById('container').style.top = "275px";
+    document.getElementById('prints').style.left = "-10px";
+  }
+}
+
+
+function toggleMenu3() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    xIcon.style.display = "none";
+    menuIcon.style.display = "block";
+    menu3.style.display = "none";
+    menu2.style.display = "none";
+    menu5.style.display = "none";
+    document.getElementById('NEWBRUTALISTPRINTS').style.display='none';
+    document.getElementById('layer_8').style.display='none';
+    document.getElementById('Layer8copy2').style.display='none';
+    document.getElementById('blank').style.display='none';
+    document.getElementById('Toto').style.display='none';
+    document.getElementById('Toto2').style.display='none';
+    document.getElementById('sumprematism').style.display='none';
+    document.getElementById('Totopicture').style.display='none';
+  } else {
+    menu.classList.add("showMenu");
+    xIcon.style.display = "block";
+    menuIcon.style.display = "none";
+    document.getElementById('Layer8copy2').style.display='block';
+    document.getElementById('NEWBRUTALISTPRINTS').style.display='block';
+    document.getElementById('layer_8').style.display='block';
+    document.getElementById('blank').style.display='block';
+    menu3.style.display = "block"
+  }
+}
+
+function toggleMenu5() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    xIcon.style.display = "none";
+    menuIcon.style.display = "block";
+    menu3.style.display = "none";
+    menu2.style.display = "none";
+    menu5.style.display = "none";
+    document.getElementById('NEWBRUTALISTPRINTS').style.display='none';
+    document.getElementById('layer_8').style.display='none';
+    document.getElementById('Layer8copy2').style.display='none';
+    document.getElementById('blank').style.display='none';
+    document.getElementById('Toto').style.display='none';
+    document.getElementById('Toto2').style.display='none';
+    document.getElementById('sumprematism').style.display='none';
+    document.getElementById('Totopicture').style.display='none';
+  } else {
+    menu.classList.add("showMenu");
+    xIcon.style.display = "block";
+    menuIcon.style.display = "none";
+    document.getElementById('Layer8copy2').style.display='block';
+    document.getElementById('NEWBRUTALISTPRINTS').style.display='block';
+    document.getElementById('layer_8').style.display='block';
+    document.getElementById('blank').style.display='block';
+    document.getElementById('U').style.
+    menu5.style.display = "block"
+  }
+}
+
+function togglecontmenu() {
+  if (menu.classList.contains("showMenu")) {
+    document.getElementById('NEWBRUTALISTPRINTS').style.display='none';
+    document.getElementById('Toto').style.display='block';
+    document.getElementById('Toto2').style.display='block';
+    document.getElementById('sumprematism').style.display='block';
+    document.getElementById('Totopicture').style.display='block';
+    document.getElementById('Toto6').style.display='block';
+    document.getElementById('Toto4').style.display='block';
+    document.getElementById('sumprematism2').style.display='block';
+    document.getElementById('Totopicture2').style.display='block';
+    document.getElementById('mini-background').style.display='none';
+    document.getElementById('textart').style.display='block';
+    document.getElementById('icon').style.display='inline';
+  } else {
+    menu.classList.add("showMenu");
+    xIcon.style.display = "block";
+    menuIcon.style.display = "none";
+    document.getElementById('NEWBRUTALISTPRINTS').style.display='none';
+    document.getElementById('Layer8copy2').style.display='sticky';
+    document.getElementById('layer_8').style.display='sticky';
+    document.getElementById('blank').style.display='sticky';
+    document.getElementById('mini-background').style.display='sticky';
+    document.getElementById('textart').style.display = "block";
+    menu2.style.display = "block";
+    textart.style.display = "block";
+  }
+}
+
+var menuLinks = document.querySelectorAll(".menuLink")
+
+menuLinks.forEach(
+  function (menuLink) {
+    menuLink.addEventListener("click", toggleMenu)
+  }
+)
+</script>
